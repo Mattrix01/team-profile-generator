@@ -12,7 +12,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "jest __tests__/employee.test.js"
+    "test": "jest --verbose __tests__/*"
   },
   "repository": {
     "type": "git",
