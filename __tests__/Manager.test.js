@@ -7,6 +7,6 @@ describe("Manager", () => {
   });
   it("That get office number is getting a number", () => {
     const managerNew = new Manager("manager name", 3, "email@dummy.com", 10);
-    expect(managerNew.getOfficeNumber()).toEqual(10);
+    expect(managerNew.getOfficeNumber()).toEqual(expect.any(Number));
   });
 });
